@@ -1,0 +1,5 @@
+# Project & build files
+.idea/
+project/target/
+project/project/
+target/
