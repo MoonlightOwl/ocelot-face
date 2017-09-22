@@ -11,8 +11,11 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.splash p {
+.splash button {
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 42pt;
-  color: #444;
+  font-size: 24pt;
+  color: #333;
+}
+.splash-buttons {
+  margin-top: 20px;
 }
