@@ -11,11 +11,11 @@ This repository contains Ocelot.Online frontend.
 ## Build JS scripts
 ```sh
 $ sbt
-> fastOptJS
+> fullOptJS
 ```
 This command will generate two JS files:
-`./target/scala-2.12/ocelot-face-fastopt.js` and 
-`./target/scala-2.12/ocelot-face-jsdeps.js`.
+`./target/scala-2.12/ocelot-face-opt.js` and
+`./target/scala-2.12/ocelot-face-jsdeps.min.js`.
 
 You must add these files to your `ocelot-back` distribution,
 along with updated `index` page template (if needed).
